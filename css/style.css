@@ -1,0 +1,135 @@
+/*limpar Formatações*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Formatações Gerais*/
+h1{
+    color: rgb(0, 6, 186);
+    font-size: 2.5em;
+}
+h2{
+    color: aquamarine;
+}
+img{
+    width:620px;
+    height: 500px;
+}
+/*Em elementos inline não da para aplicar margin e padding*/ 
+.data-postagem{
+    font-size:.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*Layout*/
+
+#logo, #menu{
+    padding: 10px;
+}
+#principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+/*Postagens*/
+
+#postagens{
+    width: 660px;
+    float: left;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom:  20px;
+}
+
+
+/*Área Lateral*/
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+#area-lateral hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.conteudo-lateral{
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.conteudo-lateral a{
+    padding: 5px;
+}
+.conteudo-lateral h2{
+    background: aquamarine;
+    color: blue;
+    text-align: center;
+}
+.postagem-lateral{
+    font-size: .8em;
+    padding: 5px;
+}
+.postagem-lateral a{
+    margin-top: 5px;
+    display: block;
+    padding: 10px;
+    font-size: 1.5em;
+    color: black;
+    text-align: left;
+}
+
+
+
+/*Rodape*/
+#rodape{
+    background-color: aquamarine;
+    text-align: center;
+    clear: both;
+    padding: 15px;
+    margin: 0;
+
+}
+
+
+/*Cabeçalho*/
+#cabecalho{
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#logo-branco{
+    color: white;
+}
+
+/*Formatação do Menu*/
+a{
+    text-decoration: none;
+    color: rgb(0, 6, 186);
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#menu a:link, #menu a:visited{
+    color: white;
+    font-weight: 900;
+    font-size:1.2em ;
+    padding: 8px 12px;
+}
+
+#menu a:hover{
+    background-color: white;
+    color: aquamarine;
+    text-decoration: none;
+}
+
