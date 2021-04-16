@@ -1,2 +1,3 @@
 # Pagina Info
-## Execute o arquivo index.html no seu navegado
+## Execute o arquivo index.html no seu navegador
+
